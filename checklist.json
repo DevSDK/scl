@@ -1,0 +1,13 @@
+{
+    "commit": [
+        "No missing files",
+        "Check Commit Message",
+        "Make sure Description and Source are mached",
+        "Check Missspeling or Grammer error in sources or comments",
+        "Check Local Unit Test success",
+        "Check Build correctly",
+        "Check Current Branch",
+        "Check Coding Style is valid",
+        "Approved from reviewers"
+    ]
+}
