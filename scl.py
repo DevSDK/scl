@@ -26,7 +26,7 @@ def AskInformation():
 
     return title, info, target
 
-def CreateCheckLis(page):
+def CreateCheckList(page):
     title, info, target = AskInformation()
     case = page.children.add_new(PageBlock)
     case.title = title
@@ -45,6 +45,6 @@ with open('config.json') as json_file:
     data = json.load(json_file)
     client = NotionClient(token_v2=data["Auth"])
     page = client.get_block(data["Page"])
-    CreateCheckLis(page)
+    CreateCheckList(page)
     
 
